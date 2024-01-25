@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* Clear floats */
 
 .clearfix{
@@ -15,10 +25,10 @@
     display:inline-block;
     
 }
-.tabs li{
+.tabs li:not(last-child){
 
     padding-right:100px;
-    padding-left:100px;
+    
 }
 
 
@@ -56,24 +66,58 @@ h1{
 .qualified{
     margin-top:50px;
     margin-left:50px;
-    width:10%;
-    box-shadow:5px 5px 5px  darkgrey
+    width:30%;
+    box-shadow:0px 0px 5px  darkgrey
 }
 .emergency{
     margin-top:50px;
     margin-left:50px;
-    width:10%;
-    box-shadow:5px 5px 5px  darkgrey
+    padding-left: 5px;
+    padding-right: 5px;
+    width:30%;
+    box-shadow:0px 0px 5px  darkgrey
 }
 .services{
     margin-top:50px;
     margin-left:50px;
-    width:10%;
-    box-shadow:5px 5px 5px  darkgrey
+    width:30%;
+    box-shadow:0 0 5px  darkgrey
     
 
 }
 .care{
     display:flex;
     
+}
+.about-section{
+    height: 350px;
+    margin: 50px 0;
+}
+.medical{
+    width: 50%;
+    float: left;
+    height: 350px;
+}
+
+.medical img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.we{
+    float:right;
+    width: 50%;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+.about{
+    color:#2dd6c1
+}
+.us{
+    color:#496bf2
+}
+.read{
+    color:white;
+    background-color: #496bf2;
+    padding:8px,8px;
 }
