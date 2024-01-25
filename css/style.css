@@ -15,10 +15,14 @@
     display:inline-block;
     
 }
-.tabs li:not(:last-child){
+.tabs li{
 
-    padding-right:20px;
+    padding-right:100px;
+    padding-left:100px;
 }
+
+
+
 
 .logo{
     float:left;
@@ -35,12 +39,41 @@ h1{
 .quality{
     position:absolute;
     top: 60px;
-    left:55;
-    transform: translate(300%,-20%);
+    left:55%;
+    transform: translate(-20%,50%);
 }
 .a{
-    background-color:lightskyblue;
+    background-color:#496bf2;
+    color:white;
+    padding:8px;
+    
 }
 .b{
-    background-color:lightgreen;
+    background-color:#2dd6c1;
+    color:white;
+    padding:8px;
+}
+.qualified{
+    margin-top:50px;
+    margin-left:50px;
+    width:10%;
+    box-shadow:5px 5px 5px  darkgrey
+}
+.emergency{
+    margin-top:50px;
+    margin-left:50px;
+    width:10%;
+    box-shadow:5px 5px 5px  darkgrey
+}
+.services{
+    margin-top:50px;
+    margin-left:50px;
+    width:10%;
+    box-shadow:5px 5px 5px  darkgrey
+    
+
+}
+.care{
+    display:flex;
+    
 }
