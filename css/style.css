@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
 }
 .container{
     width: 80%;
@@ -22,6 +23,10 @@
 .tabs{
     list-style-type:none;
     float:right;
+    margin-top: 15px;
+}
+.quality h2{
+   text-shadow:0px 1px 1px lightslategrey;
 }
 
 .tabs li{
@@ -46,7 +51,7 @@
     position:relative;
 
 }
-h1{
+h2{
     color:#496bf2;
 }
 .quality{
@@ -58,19 +63,27 @@ h1{
 .a{
     background-color:#496bf2;
     color:white;
-    padding:8px;
+    padding:10px 20px;
+    margin-top: 20px;
+    border-style: none;
+    border-radius: 3%;
     
 }
 .b{
     background-color:#2dd6c1;
     color:white;
-    padding:8px;
+    padding:10px 20px;
+    margin-top: 20px;
+    margin-left:10px;
+    margin-right: 15px;
+    border-style: none;
+    border-radius: 3%;
 }
 .qualified{
     margin-top:50px;
     margin-left:50px;
     width:30%;
-    box-shadow:0px 0px 5px  darkgrey
+    box-shadow:0px 0px 5px  darkgrey;
 }
 .qualified h3{
     color:#496bf2;
@@ -92,7 +105,7 @@ margin-bottom: 10px;
     margin-top:50px;
     margin-left:50px;
     width:30%;
-    box-shadow:0 0 5px  darkgrey
+    box-shadow:0 0 5px  darkgrey;
     
 
 }
@@ -125,39 +138,90 @@ margin-bottom: 10px;
     padding: 0 20px;
     line-height: 1.5;
 }
+.q1{
+    padding-bottom: 5px;
+}
+.q2{
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: inline-end;
+}
 .about{
-    color:#2dd6c1
+    color:#2dd6c1;
+    text-shadow: 0px 1px 1px lightgrey;
 }
 .us{
-    color:#496bf2
+    color:#496bf2;
+    text-align: center;
+    text-shadow: 0px 1px 1px lightgrey;
 }
 .read{
     color:white;
     background-color: #496bf2;
-    padding:8px,8px;
+    padding:15px,8px;
+    border-style: none;
+    padding: 5px 23px;
+    border-radius: 3%;
 }
 .thousands{
-    transform:translate(30%)
+    width:25%;
+    margin:0 auto;
+    margin-bottom: 40px;
+    
 }
-.testimonial-circles{
+.thousands h2{
+    text-shadow: 0px 1px 1px lightgray;
+    color:black;
+}
+.rael{
+    padding: 0px 10px;
+}
+.testimonials{
+    width:fit-content;
+    margin:0 auto; margin-top: 20px;
+    
+}
+.testimonial-circle{
     width:20px;
     height:20px;
-    border:2px solid #2dd6c1;
-    border-radius:50%;
+    border:1px solid grey;
+    border-radius: 50%;
     display:inline-block;
-    margin:6px;
+    border-style: none;
+}
+.testimonial-circle:not(:last-child){
+    margin-right: 20px;
+
+}
+.testimonial-circle:first-child{
+    background-color:#496bf2
+}
+.testimonial-circle:not(:first-child){
+    background-color: #2dd6c1;
+}
+.profiles:not(:last-child){
+    margin-right: 20px;
+}
+
+.profiles img:first-child{
+margin-left: 60px;
+}
+
+.profiles img{
+    display: inline-block;
+    margin: 0 auto;
 }
 .male{
-    width:4%;
+    width:15%;
 }
 .female{
-    width:7%;
-    padding-left:12px;
-    padding-right:12px;
+    width:25%;
+    padding-left:5px;
+    padding-right:5px;
 }
 .final{
     background:url(../images/ezgif-2-81a50240fb.png) no-repeat center center/cover;
-    height:85vh;
+    height:75vh;
     margin-top:20px;
     margin-bottom:20px;
 }
@@ -167,44 +231,60 @@ margin-bottom: 10px;
     margin-left:20px;
     margin-bottom:20px;
     padding: 7px 30px;
+    border-style: none;
+    border-radius: 3%;
 }.last{
-    transform:translate(30%);
+    text-align: center;
+    
 }
 .twits{
     width:2%;
     display:flex;
 }
 .facebook{
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:25px;
+    margin-right:25px;
 }
-.kibera{display: inline;
-    
+.twitter{
+    margin-left: 5px;
 }
-.number{
-    display:inline;
-
+.all{
+    margin-left: 30px;
+    margin-top:-94px;
 }
-.info{
-    display:inline
+.contactdetails{
+    margin-left:-3px;
 }
 .pin{
+margin-top: 10px;
+}
+.call{
+    margin-top: 10px;
+}
+.mail{
+    margin-top: 10px;
+}
+.footer-item li{
+    list-style-type: none;
     
 }
-.list{
-    display: flex; 
-    padding-bottom:20px;
+.footer-item{
+    float: left;
+    width: 25%;
 }
-.logos{
-    width:25%
+.name{
+    margin: 20px;
+padding-right:270px; 
+padding-bottom: 35px; 
+padding-top: 35px;
+padding-left:10px;
+
+
 }
-.links{
-    width:25%
+.inputs{
+    border-style: none;
+
+    
 }
-.departments{
-    width:25%
-}
-.contacts{
-    width:25%
-}
+
 
