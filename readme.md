@@ -3,7 +3,9 @@
 ## Project description
 ---
 medic-care is a website for an innovative medical company where clients can visit and learn about what the company offers.
-# To access the project live use this [link](https://twilightmiva.github.io/medicare/)
+# Live Link
+---
+To access the project live use this [link](https://twilightmiva.github.io/medicare/)
 ## Screenshots
 ---
 header section of the medic-care project
@@ -14,8 +16,8 @@ reach us section of the medic-care project
 ![link](/images/reach%20us%20screenshot.png)
 ## Technology used
 ---
-*html
-*css
+* html
+* css
 ## Project set-up and installation
 ---
 1. Open the teminal and navigate to where you want to store the project e.g `cd Desktop`
@@ -27,7 +29,7 @@ If you'de like  to reach out to me for feedback or collaboration use this email 
 ## license
   MIT License
 
-Copyright (c) [2024] [***Mercy Nyambura wammbui***]
+Copyright (c) 2024 ***Mercy Nyambura wammbui***
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
